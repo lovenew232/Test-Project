@@ -1,5 +1,5 @@
-export const BASE_URL = "http://localhost:8000";
-
+// export const BASE_URL = "http://localhost:8000";
+axios.post(API_PATHS.AUTH.LOGIN, userData);
 // utils/apiPaths.js
 export const API_PATHS = {
   AUTH: {
